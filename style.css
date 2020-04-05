@@ -1,0 +1,20 @@
+body{
+    color: rgb(165, 42, 134);
+}
+.name{
+    text-align: center;
+    
+}
+.name h1{
+    margin: 5px;
+}
+
+.time{
+    color: rgb(37, 37, 37);
+    float: left;
+    
+}
+.weather{
+    float: right;
+    
+}
