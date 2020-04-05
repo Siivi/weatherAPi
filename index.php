@@ -1,7 +1,7 @@
 <?php 
     $fileName = './cache.json';
     $cacheTime = 5;
-    $url ='http://api.openweathermap.org/data/2.5/weather?appid=867c220faf26292668d34dcd7c12345d&q=Tallinn,ee&units=metric';
+    $url ='http://api.openweathermap.org/data/2.5/weather?appid=KEYd&q=Tallinn,ee&units=metric';
     $currentTime = time();
 
     if (file_exists($fileName) && (time() - filemtime($fileName) < $cacheTime)){
